@@ -1,0 +1,14 @@
+baseURL = "https://example.org/"
+theme = "hugo-bearblog"
+title = ""
+languageCode = "en-US"
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+
+[params]
+  description = "My personal blog"
+  hideMadeWithLine = true
