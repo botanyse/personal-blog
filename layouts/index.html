@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ .Content }}
+
+<h3>Recent posts</h3>
+<ul class="blog-posts">
+  {{ $blogPosts := where .Site.RegularPages "Section" "blog" }}
+  {{ $readingPosts := where .Site.RegularPages "Section" "readings" }}
+  {{ $posts := $blogPosts | union $readingPosts }}
+  {{ range first 5 (sort $posts "Date" "desc") }}
+  <li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+  </li>
+  {{ else }}
+  <li>No posts yet</li>
+  {{ end }}
+</ul>
+{{ end }}
