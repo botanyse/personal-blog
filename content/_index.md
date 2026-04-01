@@ -4,6 +4,6 @@ menu = "main"
 weight = 1
 +++
 
-# This is my blog
+Hi I'm Cansu. 
 
-Hello world.
+This is where I share my thoughts, short readings I find interesting, and more (in the future).
