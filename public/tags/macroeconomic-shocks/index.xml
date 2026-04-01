@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Macroeconomic Shocks on My personal blog</title>
+    <link>https://example.org/tags/macroeconomic-shocks/</link>
+    <description>Recent content in Macroeconomic Shocks on My personal blog</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/tags/macroeconomic-shocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Public Intervention: Stabilization Policies</title>
+      <link>https://example.org/readings/20260320154702/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/readings/20260320154702/</guid>
+      <description>&lt;h2 id=&#34;from-bénassy-quéré-2019-pg-25&#34;&gt;From Bénassy-Quéré (2019, pg. 25)&lt;/h2&gt;&#xA;&lt;p&gt;Stabilisation policies are aimed at bringing the economy closer to&#xA;balance (full employment together with price stability) vis-à-vis&#xA;macroeconomic shocks.&lt;/p&gt;&#xA;&lt;p&gt;Keynes gave two reasons for such intervention: - “animal spirits”:&#xA;instability of private behavior under the influence of spontaneous&#xA;expectations - nominal rigidities of wages and prices prevent the&#xA;self-correcting market mechanisms from operating and moving the economy&#xA;back to equilibrium&lt;/p&gt;&#xA;&lt;p&gt;In the eyes of Keynes, the combination of private instability and&#xA;ineffective self-correcting mechanisms provided a justification for&#xA;relying on countercyclical monetary and fiscal policies to smooth out&#xA;economic fluctuations and prevent economic depressions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
