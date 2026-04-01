@@ -12,3 +12,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   description = "My personal blog"
   hideMadeWithLine = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
