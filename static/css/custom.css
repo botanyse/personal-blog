@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
+
+:root {
+  --font-main: "TeX Gyre Pagella", "Palatino Linotype", Palatino, "Book Antiqua", "URW Palladio L", serif;
+  --font-secondary: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "Inconsolata", "TeX Gyre Cursor", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+html,
+body {
+  font-family: var(--font-main);
+  font-variant-numeric: oldstyle-nums;
+  font-feature-settings: "onum" 1, "liga" 1, "kern" 1;
+  text-rendering: optimizeLegibility;
+}
+
+nav,
+footer,
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-secondary);
+  font-variant-numeric: oldstyle-nums;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-main);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+code,
+pre,
+kbd,
+samp,
+time {
+  font-family: var(--font-mono);
+}
+
+.katex,
+.katex-display,
+.math,
+.MathJax {
+  font-family: "TeX Gyre Pagella Math", "STIX Two Math", "Cambria Math", serif;
+}
