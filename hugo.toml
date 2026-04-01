@@ -1,6 +1,6 @@
 baseURL = "https://example.org/"
 theme = "hugo-bearblog"
-title = ""
+title = "Belacqva"
 languageCode = "en-US"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]

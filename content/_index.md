@@ -4,6 +4,7 @@ menu = "main"
 weight = 1
 +++
 
-Hi I'm Cansu. 
+# Hi, I'm Belacqva. 
+This is where I share my thoughts, short readings, and more (coming soon).
 
-This is where I share my thoughts, short readings I find interesting, and more (in the future).
+Here are my latest posts:

@@ -1,20 +1,79 @@
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;600&display=swap');
 
 :root {
-  --font-main: "TeX Gyre Pagella", "Palatino Linotype", Palatino, "Book Antiqua", serif;
-  --font-secondary: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-main: "XCharter", "Charter", "Bitstream Charter", "URW Bookman", "Book Antiqua", Georgia, serif;
+  --font-secondary: "Fira Sans", "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: "XCharter", "Charter", "Bitstream Charter", "URW Bookman", "Book Antiqua", Georgia, serif;
+  --font-scale: 1.05em;
+  --background-color: #f8f5ef;
+  --heading-color: #1f1914;
+  --text-color: #3b322a;
+  --link-color: #6c4124;
+  --visited-color: #7a5b44;
+  --blockquote-color: #4d4338;
 }
 
-body {
-  font-size: 1.08rem;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #1e1f22;
+    --heading-color: #f2f2f2;
+    --text-color: #d4d4d4;
+    --link-color: #9ecbff;
+    --visited-color: #c4a4ff;
+    --blockquote-color: #b7b7b7;
+  }
 }
 
 code,
 pre,
 kbd,
-samp,
+samp {
+  font-family: "Fira Mono", "Inconsolata", "SFMono-Regular", Menlo, Consolas, monospace;
+}
+
+body {
+  font-variant-numeric: lining-nums tabular-nums;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+strong,
+b {
+  font-weight: 700;
+}
+
+header .title h2 {
+  margin: 0.25em 0 0.15em;
+  line-height: 1.2;
+}
+
+header nav {
+  margin-top: 0.1em;
+}
+
+header nav a {
+  margin-right: 8px;
+}
+
+math,
+.katex,
+.MathJax {
+  font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", "Times New Roman", serif;
+  font-weight: 600;
+}
+
 time {
-  font-family: "Inconsolata", "SFMono-Regular", Menlo, Consolas, monospace;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  font-size: 0.94em;
 }
 </style>
