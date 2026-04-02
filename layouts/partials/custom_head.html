@@ -71,9 +71,17 @@ math,
   font-weight: 600;
 }
 
+mjx-container.MathJax[display="false"] {
+  margin: 0 !important;
+}
+
 time {
   font-family: var(--font-secondary);
   font-weight: 600;
   font-size: 0.94em;
 }
 </style>
+
+{{ if .Param "math" }}
+  {{ partialCached "math.html" . }}
+{{ end }}

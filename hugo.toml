@@ -12,6 +12,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 [params]
   description = "My personal blog"
   hideMadeWithLine = true
+  math = true
 
 [menu]
   [[menu.main]]
@@ -37,3 +38,13 @@ ignoreErrors = ["error-disable-taxonomy"]
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['$', '$'], ['\\(', '\\)']]
+
