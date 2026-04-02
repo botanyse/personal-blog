@@ -3,8 +3,7 @@ theme = "hugo-bearblog"
 title = "Belacqwa"
 languageCode = "en-US"
 enableRobotsTXT = true
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+disableKinds = ["taxonomy", "term"]
 
 [permalinks]
   blog = "/:slug/"
@@ -45,6 +44,6 @@ ignoreErrors = ["error-disable-taxonomy"]
       [markup.goldmark.extensions.passthrough]
         enable = true
         [markup.goldmark.extensions.passthrough.delimiters]
-          block = [['\[', '\]'], ['$$', '$$']]
-          inline = [['$', '$'], ['\\(', '\\)']]
+          block = [['\\[', '\\]'], ['$$', '$$']]
+          inline = [['\\(', '\\)'], ['$', '$']]
 
