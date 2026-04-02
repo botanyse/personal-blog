@@ -1,10 +1,8 @@
 +++
 title = "Home"
-menu = "main"
-weight = 1
 +++
 
-# Hi, I'm Belacqva. 
+# Hi, I'm Belacqwa. 
 This is where I share my thoughts, short readings, and more (coming soon).
 Depending on the content, it can be in English, Turkish, French, or rarely German.
 
