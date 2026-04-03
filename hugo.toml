@@ -1,4 +1,4 @@
-baseURL = "https://botanyse.github.io/personal-blog/"
+baseURL = "https://example.com"
 theme = "hugo-bearblog"
 title = "Belacqwa"
 languageCode = "en-US"
@@ -34,6 +34,7 @@ disableKinds = ["taxonomy"]
     url = "/contact/"
     weight = 4
   
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
