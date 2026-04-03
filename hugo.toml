@@ -34,11 +34,6 @@ disableKinds = ["taxonomy"]
     url = "/contact/"
     weight = 4
   
-  [[menu.main]]
-    name = "Subscribe"
-    url = "/subscribe/"
-    weight = 5
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
