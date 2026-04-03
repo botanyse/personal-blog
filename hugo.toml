@@ -4,6 +4,7 @@ title = "Belacqwa"
 languageCode = "en-US"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
+canonifyURLs = true
 
 [permalinks]
   blog = "/:slug/"
