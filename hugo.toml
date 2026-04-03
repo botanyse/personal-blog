@@ -1,4 +1,4 @@
-baseURL = "https://example.org/"
+baseURL = "https://botanyse.github.io/personal-blog/"
 theme = "hugo-bearblog"
 title = "Belacqwa"
 languageCode = "en-US"
