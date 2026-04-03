@@ -3,7 +3,7 @@ theme = "hugo-bearblog"
 title = "Belacqwa"
 languageCode = "en-US"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "term"]
+disableKinds = ["taxonomy"]
 
 [permalinks]
   blog = "/:slug/"
