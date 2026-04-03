@@ -1,0 +1,91 @@
+/* fira-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fira-sans-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fira-sans-italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/fira-sans-v18-latin-italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fira-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/fira-sans-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fira-sans-600italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('../fonts/fira-sans-v18-latin-600italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fira-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/fira-sans-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* fira-sans-700italic - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/fira-sans-v18-latin-700italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fira-mono-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/fira-mono-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* xcharter-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'XCharter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/XCharter-Roman.woff2') format('woff2');
+}
+/* xcharter-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'XCharter';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/XCharter-Italic.woff2') format('woff2');
+}
+/* xcharter-bold - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'XCharter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/XCharter-Bold.woff2') format('woff2');
+}
+/* xcharter-bolditalic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'XCharter';
+  font-style: italic;
+  font-weight: 700;
+  src: url('../fonts/XCharter-BoldItalic.woff2') format('woff2');
+}
+

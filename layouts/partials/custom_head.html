@@ -1,11 +1,11 @@
+<link rel="stylesheet" href="/css/fonts.css">
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&family=Fira+Mono:wght@400;500&family=Inconsolata:wght@400;600&display=swap');
 
 :root {
-  --font-main: "XCharter", "Charter", "Bitstream Charter", "URW Bookman", "Book Antiqua", Georgia, serif;
-  --font-secondary: "Fira Sans", "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-display: "XCharter", "Charter", "Bitstream Charter", "URW Bookman", "Book Antiqua", Georgia, serif;
-  --font-scale: 1.05em;
+  --font-main: "XCharter", Georgia, serif;
+  --font-secondary: "Fira Sans", Arial, sans-serif;
+  --font-display: "XCharter", Georgia, serif;
+  --font-scale: 1.2em;
   --background-color: #ffffff;
   --heading-color: #040e1a;
   --text-color: #2d3f55;
@@ -25,23 +25,32 @@
   }
 }
 
+html {
+  font-size: 0.96em;
+}
+
 code,
 pre,
 kbd,
 samp {
-  font-family: "Fira Mono", "Inconsolata", "SFMono-Regular", Menlo, Consolas, monospace;
+  font-family: "Fira Mono", Consolas, monospace;
+  font-size: 0.88em;
 }
 
 body {
+  font-family: var(--font-main);
   font-variant-numeric: lining-nums tabular-nums;
   line-height: 1.5;
 }
 
-h1,
+h1 {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
 h2,
 h3 {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 strong,
@@ -52,6 +61,7 @@ b {
 header .title h2 {
   margin: 0.25em 0 0.15em;
   line-height: 1.2;
+  font-size: 1em
 }
 
 header nav {
@@ -62,13 +72,11 @@ header nav a {
   margin-right: 8px;
 }
 
-math,
-.katex,
-.MathJax {
-  font-family: "STIX Two Math", "Cambria Math", "Latin Modern Math", "Times New Roman", serif;
-  font-weight: 600;
+/* Tag links only */
+a[href*="/tags/"],
+a[href*="/tags/"]:visited {
+  color: #ae9f9a;
 }
-
 mjx-container.MathJax[display="false"] {
   margin: 0 !important;
 }
@@ -76,7 +84,7 @@ mjx-container.MathJax[display="false"] {
 time {
   font-family: var(--font-secondary);
   font-weight: 600;
-  font-size: 0.94em;
+  font-size: 0.88em;
 }
 </style>
 
