@@ -6,8 +6,12 @@ updates:
     schedule:
       interval: "monthly"
 
-  # Action versions used in .github/workflows/
+  # Action versions used in .github/workflows/ — bundled into one PR
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "monthly"
+    groups:
+      actions:
+        patterns:
+          - "*"
