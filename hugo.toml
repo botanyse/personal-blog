@@ -1,13 +1,14 @@
 baseURL = "https://botanyse.github.io/personal-blog/"
 theme = "hugo-bearblog"
 title = "Belacqwa"
-languageCode = "en-US"
+locale = "en-US"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 canonifyURLs = true
 
 [permalinks]
   blog = "/:slug/"
+  readings = "/readings/:slug/"
 
 [params]
   description = "My personal blog"
@@ -42,6 +43,8 @@ canonifyURLs = true
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         enable = true
