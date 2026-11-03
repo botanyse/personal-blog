@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Theme (git submodule in themes/hugo-bearblog)
+  - package-ecosystem: "gitsubmodule"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+
+  # Action versions used in .github/workflows/
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
